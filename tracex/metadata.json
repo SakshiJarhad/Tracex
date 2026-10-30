@@ -1,0 +1,6 @@
+{
+  "name": "TraceX",
+  "description": "TraceX is an AI-assisted cybersecurity digital forensic investigation framework that identifies anti-forensic activities, correlates digital artifacts, and reconstructs chronological event timelines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

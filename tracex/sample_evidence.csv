@@ -1,0 +1,8 @@
+EvidenceID,Timestamp,ArtifactName,Source,EventType,Description,User,RiskLevel
+EVD-USB-01,12:05:00,SanDisk Ultra Flash Drive Connected,USB_BUS,USB_CONNECTED,USB storage device attached and mounted to Drive E:\ with serial 4C531001560,CORP\jdoe,HIGH
+EVD-NTFS-02,12:08:22,Confidential Spreadsheet Accessed,FILE_SYSTEM,FILE_ACCESSED,Target financial acquisition model opened in Excel: Q3_Financial_Acquisition_Target.xlsx,CORP\jdoe,HIGH
+EVD-NTFS-03,12:10:05,Confidential Spreadsheet Copied to USB,FILE_SYSTEM,FILE_COPIED_TO_USB,USN Journal confirms file copy to E:\Exfil\Q3_Financial_Acquisition_Target.xlsx,CORP\jdoe,CRITICAL
+EVD-BRW-04,12:12:30,Chrome Browser Browsing History Wiped,BROWSER,BROWSER_HISTORY_CLEARED,Google Chrome SQLite history cleared and WAL journal truncated to 0 bytes,CORP\jdoe,CRITICAL
+EVD-LOG-05,12:13:15,Windows Audit Security Event Log Wiped,EVENT_LOG,LOG_DELETION,Windows Security Event ID 1102 - Security.evtx audit log deleted via wevtutil.exe,CORP\jdoe,CRITICAL
+EVD-MFT-06,12:14:02,NTFS Filesystem Timestomp Anomaly Detected,MFT_REGISTRY,TIMESTAMP_ANOMALY,Discrepancy detected: $STANDARD_INFORMATION backdated while $FILE_NAME retains genuine 2026 stamp,CORP\jdoe,CRITICAL
+EVD-USB-07,12:16:00,SanDisk Ultra Flash Drive Disconnected,USB_BUS,USB_DISCONNECTED,Removable USB storage device unmounted and safely removed from system,CORP\jdoe,LOW
